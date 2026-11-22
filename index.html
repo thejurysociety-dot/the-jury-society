@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The Jury Society is a youth-led initiative advancing justice, civic engagement, and meaningful community impact.">
+<title>The Jury Society | Justice. Community. Change.</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: #faf8f3;
+  color: #302c26;
+  line-height: 1.7;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 8%;
+  background: #faf8f3;
+  border-bottom: 1px solid #e9e3d8;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #51483b;
+  font-size: 13px;
+}
+
+.hero {
+  min-height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 90px 10%;
+  background: #eae4d8;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 11px;
+  color: #89765b;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  font-size: clamp(43px, 7vw, 76px);
+  line-height: 1.13;
+  font-weight: normal;
+  max-width: 850px;
+}
+
+.hero p {
+  max-width: 590px;
+  margin: 25px 0 35px;
+  color: #665e53;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+.button {
+  display: inline-block;
+  background: #453c30;
+  color: white;
+  padding: 13px 29px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #8b7656;
+}
+
+section {
+  padding: 90px 10%;
+}
+
+.section-label {
+  color: #9a805b;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: clamp(32px, 4vw, 47px);
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.about {
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+}
+
+.about p {
+  color: #6b6257;
+  font-size: 16px;
+}
+
+.mission {
+  background: #453c30;
+  color: #faf8f3;
+  text-align: center;
+}
+
+.mission p {
+  max-width: 720px;
+  margin: auto;
+  color: #ded5c7;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.card {
+  padding: 30px;
+  border: 1px solid #e5ded2;
+  background: #fffefa;
+}
+
+.card .number {
+  color: #a58b64;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.card h3 {
+  font-size: 23px;
+  font-weight: normal;
+  margin: 17px 0 12px;
+}
+
+.card p {
+  color: #756d62;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+.projects {
+  background: #eee9df;
+}
+
+.partnerships {
+  text-align: center;
+}
+
+.partnerships p {
+  max-width: 650px;
+  margin: 0 auto 25px;
+  color: #6b6257;
+}
+
+.contact {
+  background: #eae4d8;
+  text-align: center;
+}
+
+footer {
+  background: #302c26;
+  color: #e8dfd1;
+  text-align: center;
+  padding: 35px 15px;
+  font-size: 12px;
+}
+
+footer p {
+  margin: 7px;
+}
+
+@media(max-width: 750px) {
+  nav {
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  section {
+    padding: 65px 8%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">THE JURY SOCIETY</div>
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#mission">Mission</a>
+    <a href="#initiatives">Initiatives</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="eyebrow">A Youth-Led Initiative</div>
+  <h1>Justice begins with the willingness to act.</h1>
+  <p>
+    Advancing justice, encouraging civic engagement,
+    and creating meaningful opportunities for communities
+    to make a difference.
+  </p>
+  <a href="#about" class="button">DISCOVER OUR WORK</a>
+</header>
+
+<section id="about">
+  <div class="about">
+    <div class="section-label">Who We Are</div>
+    <h2>A generation committed to making a difference.</h2>
+    <p>
+      The Jury Society is a youth-led initiative dedicated
+      to advancing justice, supporting communities, and
+      encouraging meaningful civic participation.
+      We believe that positive change begins with awareness,
+      collaboration, and the willingness to take action.
+    </p>
+  </div>
+</section>
+
+<section class="mission" id="mission">
+  <div class="section-label">Our Purpose</div>
+  <h2>Our Mission</h2>
+  <p>
+    To create opportunities for young people to engage
+    with important social issues, contribute to their
+    communities, and become informed and responsible
+    advocates for positive change.
+  </p>
+</section>
+
+<section id="initiatives">
+  <div class="section-label">What We Stand For</div>
+  <h2>Our Areas of Focus</h2>
+
+  <div class="grid">
+    <div class="card">
+      <div class="number">01 / JUSTICE</div>
+      <h3>Legal Awareness</h3>
+      <p>
+        Encouraging greater understanding of legal systems,
+        civic responsibilities, and access to justice.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="number">02 / COMMUNITY</div>
+      <h3>Community Support</h3>
+      <p>
+        Exploring meaningful ways to support underserved
+        communities through service and collaboration.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="number">03 / ENGAGEMENT</div>
+      <h3>Youth Advocacy</h3>
+      <p>
+        Empowering young people to become informed,
+        engaged, and active members of society.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <div class="section-label">Our Work</div>
+  <h2>Turning Ideas Into Action</h2>
+  <p>
+    We aim to develop initiatives that bring awareness
+    to important issues and create opportunities for
+    meaningful community involvement.
+  </p>
+  <br>
+  <p>
+    Our projects will continue to evolve through
+    collaboration, service, and youth participation.
+  </p>
+</section>
+
+<section class="partnerships">
+  <div class="section-label">Get Involved</div>
+  <h2>Change is a collective effort.</h2>
+  <p>
+    We welcome opportunities to connect with organizations,
+    community leaders, and individuals who share our
+    commitment to justice and positive social impact.
+  </p>
+  <a href="#contact" class="button">CONNECT WITH US</a>
+</section>
+
+<section class="contact" id="contact">
+  <div class="section-label">Contact</div>
+  <h2>Let's create meaningful change.</h2>
+  <p>
+    Interested in collaborating or learning more about
+    The Jury Society? We would love to hear from you.
+  </p>
+  <br>
+  <a href="mailto:YOUR_EMAIL_HERE" class="button">
+    CONTACT OUR TEAM
+  </a>
+</section>
+
+<footer>
+  <p><strong>THE JURY SOCIETY</strong></p>
+  <p>Justice. Community. Change.</p>
+  <p>© 2026 The Jury Society. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
